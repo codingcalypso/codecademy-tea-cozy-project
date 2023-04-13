@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+.top-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 70px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  top: 0;
+  z-index: 2;
+}
+section {
+  background-color: black;
+  text-align: center;
+  top: 300px;
+  height: 150px;
+  position: relative;
+  padding: 1px;
+}
+.container {
+  background-image: url(images/img-mission-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: center;
+  height: 700px;
+  max-width: 100%;
+}
+.logo-img {
+  max-height: 50px;
+  display: inline-flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.monthly-selections {
+  width: 1000px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.navigation a {
+  text-decoration: underline;
+  color: #888888;
+  padding: 20px;
+}
+.navigation li {
+  display: inline-flex;
+  padding-right: 0px;
+  list-style-type: none;
+}
+.selection figcaption {
+  padding: 10px;
+  font-weight: bold;
+}
+.tea {
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+}
+.location {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top: 150px;
+  right: 130px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+}
+.locations-title {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 650px;
+}
+.location h2 {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.three-locations {
+  background-image: url(images/img-locations-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: center;
+  height: 500px;
+  width: 100%;
+  top: 60px;
+}
+.contact-info {
+  top: 40px;
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.copyright-info {
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
