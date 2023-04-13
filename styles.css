@@ -109,3 +109,7 @@ section {
   float: left;
   margin-left: 20px;
 }
+.spec a,a:hover,a:active,a:visited {
+  text-decoration: underline;
+  color: #888888;
+}
